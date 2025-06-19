@@ -1,5 +1,5 @@
 def mostrar_menu(titulo, lista_opciones ):
-    print(titulo)
+    pgurint(titulo)
     for opcion  in  lista_opciones:
         print(opcion)
 
@@ -79,7 +79,8 @@ titulo_menu = "TOTEM AUTOATENCIÓN RESERVA STRIKE"
 lista_opciones.append("1.- Reservar zapatillas ")
 lista_opciones.append("2.- Buscar zapatillas reservadas.")
 lista_opciones.append("3.- Ver stock de reservas. ")
-lista_opciones.append("4.- Salir. ")
+lista_opciones.append("4.- Anulación Reserva. ")
+lista_opciones.append("5.- Salir. ")
 
 opcion = 0
 while opcion != len(lista_opciones):
